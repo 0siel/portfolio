@@ -75,10 +75,10 @@ function App() {
             Algorithms and Data Structures
           </span>
           <span className="border-5 border-hidden px-4 py-2 bg-black text-white rounded-full">
-            Problem-solving{" "}
+            Problem-solving
           </span>
           <span className="border-5 border-hidden px-4 py-2 bg-black text-white rounded-full">
-            Logical thinking{" "}
+            Logical thinking
           </span>
         </div>
       </section>
@@ -88,8 +88,52 @@ function App() {
         <h2 className="text-3xl md:text-4xl font-semibold mb-6">
           Get in Touch
         </h2>
-        <p className="text-lg">osielrubio@email.com</p>
-        <p className="mt-2">Let’s collaborate or chat about cool ideas ✉️</p>
+
+        <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">
+          I'm always open to discussing new projects, ideas, or opportunities.
+          Feel free to reach out!
+        </p>
+        <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">
+          osiel.rubio.suarez@gmail.com
+        </p>
+
+        <a
+          href="mailto:osiel.rubio.suarez@gmail.com"
+          className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors mb-6 inline-block"
+        >
+          Email Me
+        </a>
+
+        {/* Download Resume Button */}
+        <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">
+          Download my resume for more details about my experience and skills.
+        </p>
+        <a
+          href="/OSIEL_RUBIO_SUAREZ.pdf"
+          download
+          className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors mb-6 inline-block"
+        >
+          Download Resume
+        </a>
+
+        <div className="flex flex-wrap justify-center gap-4 max-w-xl mx-auto">
+          <a
+            href="https://github.com/0siel"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/osiel-rubio/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors"
+          >
+            LinkedIn
+          </a>
+        </div>
       </section>
 
       {/* Footer */}

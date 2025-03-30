@@ -41,7 +41,7 @@ export default function ProjectCarousel() {
         showThumbs={false}
         infiniteLoop
         autoPlay
-        interval={4000}
+        interval={18000}
         showStatus={false}
         showIndicators
       >
@@ -53,7 +53,7 @@ export default function ProjectCarousel() {
               showThumbs
               infiniteLoop
               autoPlay
-              interval={4000}
+              interval={6000}
               showStatus={false}
               showArrows={false}
               className="mt-4"
