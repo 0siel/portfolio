@@ -9,29 +9,20 @@ export default function ProjectCarousel() {
     {
       title: "Hotel Website",
       description: "A full-stack site built with React, Flask and AWS.",
-      url: "https://example-hotel.com",
-      images: [
-        "https://picsum.photos/seed/1200/800",
-        "https://picsum.photos/seed/1200/800",
-      ],
+      url: "https://www.sanfelipe-hotel.com/",
+      images: ["/sfelipe1.png", "sfelip2.png"],
     },
     {
       title: "Admin System for UNAM",
       description: "Built using Laravel, for a Neurodevelopment Institute.",
-      url: "https://example-unam.com",
-      images: [
-        "https://picsum.photos/seed/1200/800",
-        "https://picsum.photos/seed/1200/800",
-      ],
+      url: "https://reha.xenodochial-beaver.74-208-224-90.plesk.page/",
+      images: ["unid1.png", "unid2.png"],
     },
     {
       title: "Interactive Educational Website",
       description: "React + Tailwind site with games and learning sections.",
-      url: "https://example-education.com",
-      images: [
-        "https://picsum.photos/1200/800",
-        "https://picsum.photos/1200/800",
-      ],
+      url: "https://seven-habits.vercel.app/",
+      images: ["seven1.png", "seven2.png", "seven3.png"],
     },
   ];
 
