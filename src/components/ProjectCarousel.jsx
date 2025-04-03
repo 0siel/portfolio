@@ -7,6 +7,13 @@ export default function ProjectCarousel() {
 
   const projects = [
     {
+      title: "AI Business Assistant",
+      description:
+        "A full-stack site built with React, FastAPI, the Google sheet API and OpenAI.",
+      url: "https://ai-analytics-frontend.vercel.app/",
+      images: ["ai3.png", "ai2.png", "ai1.png"],
+    },
+    {
       title: "Hotel Website",
       description: "A full-stack site built with React, Flask and AWS.",
       url: "https://www.sanfelipe-hotel.com/",
