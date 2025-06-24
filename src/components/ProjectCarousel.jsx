@@ -14,6 +14,12 @@ export default function ProjectCarousel() {
       images: ["ai3.png", "ai2.png", "ai1.png"],
     },
     {
+      title: "AI flower prediction app",
+      description: "A web app that predicts iris flowers species using AI.",
+      url: "https://ai-iris.streamlit.app/",
+      images: ["iris2.jpg", "iris1.png"],
+    },
+    {
       title: "Hotel Website",
       description: "A full-stack site built with React, Flask and AWS.",
       url: "https://www.sanfelipe-hotel.com/",
@@ -30,6 +36,13 @@ export default function ProjectCarousel() {
       description: "React + Tailwind site with games and learning sections.",
       url: "https://seven-habits.vercel.app/",
       images: ["seven1.png", "seven2.png", "seven3.png"],
+    },
+
+    {
+      title: "Tesa VR",
+      description: "A VR-based training application.",
+      url: "https://tesavr.com/",
+      images: ["tesa1.png", "tesa2.png"],
     },
   ];
 
